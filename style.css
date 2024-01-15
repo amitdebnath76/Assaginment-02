@@ -110,12 +110,12 @@ body {
 .tour-head {
   color: #131318;
   text-align: center;
-  
+
   font-size: 2.5rem;
-  
+
   font-weight: 800;
 }
-.text-content{
+.text-content {
   padding-right: 30px;
 }
 .read-button {
@@ -123,67 +123,109 @@ body {
   background: #ff5400;
   padding: 14px 35px;
 }
-.text-content ul li{
+.text-content ul li {
   padding-bottom: 15px;
 }
-.destination{
+.destination {
   padding: 50px 130px 0 130px;
-  
 }
-.des-description{
+.des-description {
   text-align: center;
   justify-content: center;
 }
-.head-description{
+.head-description {
   color: #131318;
 
-text-align: center;
+  text-align: center;
 
-font-size: 2.5rem;
+  font-size: 2.5rem;
 
-font-weight: 800;
+  font-weight: 800;
 }
-.first-row-image{
+.first-row-image {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-bottom: 25px;
 }
-.second-row-image{
+.second-row-image {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-bottom: 25px;
 }
-.third-row-image{
+.third-row-image {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-bottom: 25px;
 }
-
-
+.chose-us {
+  padding: 50px 130px 0 130px;
+}
+.chose-us-description {
+  text-align: center;
+  justify-content: center;
+}
+.chose-head {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.chose-desc {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+.chose-details {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 35px;
+}
+.details-one {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+}
+.details-two {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 30px;
+}
+.details-three {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 30px;
+}
 
 /* Responsive css code for webside  */
 @media screen and (max-width: 600px) {
   .head,
   .tour,
-  .destination{
+  .destination,
+  .chose-us,
+  .details-three {
     padding: 25px;
   }
   .nav,
   .menu-bar,
   .banner,
   .button-container,
-  .popular-tour,.first-row-image,
-  .second-row-image,.third-row-image {
-    flex-direction: column;
-    /* justify-content: center; */
-  }
+  .popular-tour,
   .first-row-image,
-  .second-row-image,.third-row-image {
-    padding-bottom: 10px;
-    /* justify-content: center; */
+  .second-row-image,
+  .third-row-image,
+  .chose-details {
+    flex-direction: column;
+    
   }
 
   .explore-image {
@@ -192,7 +234,7 @@ font-weight: 800;
   .explore {
     font-size: 4rem;
   }
-  .image-tour{
+  .image-tour {
     padding-left: 20px;
   }
 }
