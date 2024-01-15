@@ -126,23 +126,66 @@ body {
 .text-content ul li{
   padding-bottom: 15px;
 }
+.destination{
+  padding: 50px 130px 0 130px;
+  
+}
+.des-description{
+  text-align: center;
+  justify-content: center;
+}
+.head-description{
+  color: #131318;
+
+text-align: center;
+
+font-size: 2.5rem;
+
+font-weight: 800;
+}
+.first-row-image{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 25px;
+}
+.second-row-image{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 25px;
+}
+.third-row-image{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 25px;
+}
 
 
 
 /* Responsive css code for webside  */
 @media screen and (max-width: 600px) {
   .head,
-  .tour{
+  .tour,
+  .destination{
     padding: 25px;
   }
   .nav,
   .menu-bar,
   .banner,
   .button-container,
-  .popular-tour {
+  .popular-tour,.first-row-image,
+  .second-row-image,.third-row-image {
     flex-direction: column;
     /* justify-content: center; */
   }
+  .first-row-image,
+  .second-row-image,.third-row-image {
+    padding-bottom: 10px;
+    /* justify-content: center; */
+  }
+
   .explore-image {
     width: 100%;
   }
