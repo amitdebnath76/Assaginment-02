@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap");
+body {
+  font-family: "Mulish", sans-serif;
+  background: #fff;
+}
+.head {
+  padding: 30px 130px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero {
+  padding-left: 10px;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-bar {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+.menu-bar li a {
+  float: left;
+  padding: 10px;
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.home {
+  color: #ff5400;
+  /* background-color: #FF5400; */
+}
+.travel {
+  color: #ff5400;
+
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+}
+.text {
+  position: absolute;
+  display: inline-block;
+
+  color: white;
+}
+.explore-image {
+  /* width: 100%; */
+  max-width: 100%;
+  height: auto;
+}
+.explore {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.ex-para {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.button-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.3);
+
+  /* position: absolute; */
+}
+.button {
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 8px;
+  display: inline-block;
+}
+.button-color {
+  background: #ff5400;
+}
+.tour {
+  padding: 50px 130px 0 130px;
+}
+.popular-tour {
+  display: flex;
+  justify-content: space-between;
+}
+.tour-head {
+  color: #131318;
+  text-align: center;
+  
+  font-size: 2.5rem;
+  
+  font-weight: 800;
+}
+.text-content{
+  padding-right: 30px;
+}
+.read-button {
+  border-radius: 8px;
+  background: #ff5400;
+  padding: 14px 35px;
+}
+.text-content ul li{
+  padding-bottom: 15px;
+}
+
+
+
+/* Responsive css code for webside  */
+@media screen and (max-width: 600px) {
+  .head,
+  .tour{
+    padding: 25px;
+  }
+  .nav,
+  .menu-bar,
+  .banner,
+  .button-container,
+  .popular-tour {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+  .explore-image {
+    width: 100%;
+  }
+  .explore {
+    font-size: 4rem;
+  }
+  .image-tour{
+    padding-left: 20px;
+  }
+}
